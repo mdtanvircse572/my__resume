@@ -3,50 +3,162 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
-    <title>My Responsive Portfolio</title>
+    <title>Resume</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="cv.css">
 </head>
 
 <body>
-    <nav>
-        <div class="nav__contant">
-            <div class="logo">
-                <h1><a href="#">Mohammad Tanvir</a></h1>
-            </div>
-            <label for="check" class="checkbox"><i class="ri-menu-line"></i>
-            </label>
-            <input type="checkbox" name="check" id="check">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <section class="section">
-        <div class="section__container">
-            <div class="content">
-                <p class="subtitle">HELLO</p>
-                <h1 class="title">
-                    I'm <span>Mohammad Tanvir <br> a</span> Web Developer
-                </h1>
-                <p class="description">
-                    Welcome to my web developer portfolio! I'm Mohammad Tanvir, a skilled and creative developer with a passion for creating beautiful,responsive and user friendly websites. I've worked on a variety of projects, ranging from blogs to e-commerse platforms.
-                </p>
-                <div class="action__btns">
-                    <button class="hire__me">Hire Me</button>
-                    <button class="portfolio">Portfolio</button>
+    <div class="container">
+        <div class="profile">
+            <div class="profile_container">
+                <div class="profile_profileImg">
+                    <img src="profile.jpg" alt="Naimur Rahman">
+                </div>
+                <div>
+                    <h1 class="profile_name">
+                        <span class="profile_name_firstName">Naimur</span>
+                        <span class="profile_name_lastName">Rahman</span>
+                    </h1>
+                    <p class="profile_title">Web Developer</p>
+                    <p class="description profile_description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <a class="downloadBtn" href="./cv.pdf" download="Resume.pdf">Download Resume</a>
                 </div>
             </div>
-            <div class="image">
-                <img src="assets/profile.jpg" alt="profile">
+        </div>
+        <div class="group-1">
+            <div class="skills">
+                <h3 class="title">Expertise</h3>
+                <ul class="skills_list description">
+                    <li>C , C++ , Python & Django</li>
+                    <li>HTML CSS</li>
+                    <li>MongoDB & DaisyUI</li>
+                    <li>Java Script</li>
+                    <li>React JS & Node JS</li>
+                    <li>MERN STACK</li>
+                </ul>
+            </div>
+            <div class="ref">
+                <h3 class="title">Reference</h3>
+                <div class="ref_item">
+                    <h4 class="ref_name">Rashid Chy</h4>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, neque?</p>
+                </div>
+                <div class="ref_item">
+                    <h4 class="ref_name">Ayman Rahman</h4>
+                    <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                </div>
+            </div>
+
+            <div class="edu">
+                <h3 class="title">Education</h3>
+                <div class="edu_item">
+                    <p class="item_preTitle">2020-2025</p>
+                    <h4 class="item_title">BSC in CSE</h4>
+                    <p class="item_subtitle">
+                        University Of Global Village
+                    </p>
+                </div>
+            </div>
+
+            <div class="certification">
+                <h3 class="title">certification</h3>
+                <div class="certification_item">
+                    <p class="item_preTitle">Will be get on 2025</p>
+                    <h4 class="item_title">Frontend Developer</h4>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                </div>
             </div>
         </div>
-    </section>
+        <div class="group-2">
+            <div class="exp">
+                <h3 class="title">Experience</h3>
+                <div class="exp_item">
+                    <p class="item_preTitle">2020 - present</p>
+                    <h4 class="item_title">Rashid Software LTD.</h4>
+                    <p class="item_subtitle">Frontend Developer</p>
+                    <p class=" description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                </div>
+                <div class="exp_item">
+                    <p class="item_preTitle">2021 - present</p>
+                    <h4 class="item_title">Rashid Software LTD.</h4>
+                    <p class="item_subtitle">Frontend Developer</p>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore
+                        magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                </div>
+            </div>
+            <div class="interest">
+                <h3 class="title">Interest</h3>
+                <div class="interest_items">
+                    <div class="interest_item">
+                        <i data-feather="music"></i>
+                        <span>Music</span>
+                    </div>
+                    <div class="interest_item">
+                        <i data-feather="book"></i>
+                        <span>Books</span>
+                    </div>
+                    <div class="interest_item">
+                        <i data-feather="map"></i>
+                        <span>Travel</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="group-3">
+            <div class="contact">
+                <h3 class="title">Contact</h3>
+                <div class="contact_info">
+                    <p class="description">
+                        Barishal, Bangladesh
+                    </p>
+                    <p class="description">
+                        +8801315-667373
+                    </p>
+                    <p class="description">
+                        mdtanvircse572@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="social">
+                <h3 class="title">Socials</h3>
+                <div class="social_items">
+                    <a href="#" target="_b" class="social_item">
+                        <i data-feather="github"></i>
+                        <span>/mdtanvircse572</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        feather.replace()
+    </script>
 </body>
 
 </html>
